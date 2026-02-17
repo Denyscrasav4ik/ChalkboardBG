@@ -15,7 +15,7 @@ namespace ChalkboardBG
     {
         public const string ModGUID = "denyscrasav4ik.basicallyukrainian.chalkboardbg";
         public const string ModName = "Chalkboard BG For Mode Select";
-        public const string ModVersion = "2.0.0";
+        public const string ModVersion = "2.0.1";
         private Harmony? harmonyInstance = null!;
 
         private void Awake()
