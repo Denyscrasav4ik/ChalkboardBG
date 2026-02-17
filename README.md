@@ -2,7 +2,7 @@
 
 ## 📝 Functionality
 
-Basically,  all this mod does is just adds a Background Chalkboard image from BBCR.
+Basically, all this mod does is just adds a Background Chalkboard image from BBCR.
 
 ## 📜 License
 
