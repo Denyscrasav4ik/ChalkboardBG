@@ -15,7 +15,7 @@ namespace ChalkboardBG
     {
         public const string ModGUID = "denyscrasav4ik.basicallyukrainian.chalkboardbg";
         public const string ModName = "Chalkboard BG For Mode Select";
-        public const string ModVersion = "2.0.2";
+        public const string ModVersion = "2.0.3";
         private Harmony? harmonyInstance = null!;
 
         private void Awake()
@@ -130,6 +130,8 @@ namespace ChalkboardBG
                 if (IsUnderParent(obj.transform, "About"))
                     continue;
                 if (IsUnderParent(obj.transform, "KeyboardScreen"))
+                    continue;
+                if (IsUnderParent(obj.transform, "TutorialPrompt"))
                     continue;
                 Image image = obj.GetComponent<Image>();
                 if (image == null || image.sprite != null)
